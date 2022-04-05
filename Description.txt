@@ -1,0 +1,22 @@
+10/07/21
+Hey everyone, my name is Rohan Kumar Pandey, undergraduate engineering student, 1st year ECE at Dayananda Sagar College of Engineering Banglore.
+Recently I completed learning HTML, CSS, JavaScript and created a project.
+I don't know when I will upload this project because I don't know Git and GitHub yet. Maybe when I will complete my backend then I will surely upload.
+Its a really nice idea in which the webpage will predict a person's interest in a particular art field using HTML, CSS and JavaScript.
+Technically I am an artist, so this skill has really helped me in designing the webpage. Furthermore, it took me less time in getting good at 
+all the color combinations and transition effects, hover, box shadow, background image etc and putting it into my creation.
+So my project is completely based on HTML, CSS and JavaScript and the predictions are evaluated based on the time spent in looking at a 
+particular art image. It uses JavaScript's setInterval concept. 
+When I learned setInterval, I came to know that it repeatedly calls a particular function after a given time(in milliseconds, like you have to write
+1000 for 1sec, after writing function name). So I thought why not to define a function there itself which increment a variable after each second, by 1.
+In that way the variable increments will give us the time incremented.
+Furthermore, If that function is connected to event "mouseover" for a particular div container in which a image is kept, it will calculate the time spent
+when mouse was inside the div container, or we can say time spent when the user was looking at the particular image. The more the time spent, the more
+interested the user is in that image. But I was really having problem because I never called any function to stop the setInterval. Also one more thing 
+I realised that if setInterval is not stopped and mouse is again hovered over the div container in which it is connected, it will add up the previous 
+setInterval to a new called setInterval and the increment of the variable will get faster than previous time duration declared(here I declared 1000). 
+I fixed this problem by calling another function clearInterval and connecting this to event "mouseout".  I don't know but maybe somewhere I would put 
+this issue into a good use. Further I made the interval duration from 1000 to 50 so that intervals will be 
+short to increment the variable and time spent in each image will be more easily differetiated.
+I have learned a lot from this project and I would continue to learn more and grow.
+And also do check my creations on instagram - "rohanpandey749". I would be really happy.

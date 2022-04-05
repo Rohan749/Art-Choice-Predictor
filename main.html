@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inconsolata:wght@200&family=Jomhuria&family=Overpass:wght@300&display=swap" rel="stylesheet">
+    <title>mainpage</title>
+    <style>
+        body{
+            margin: 0px;
+            background-image: url(wallpaper2you_226439.png);
+            background-size: 2100px 1990px;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            
+        }
+        .topbar{
+            background-color: antiquewhite;
+            height: 100px;
+            width: 1267px;
+            display: flex;
+            justify-content: space-evenly;
+            position: fixed;
+            opacity: 80%;
+            box-shadow: 2px 13px 29px 4px black;
+            z-index: 1;
+        }
+        .tophead{
+            height: 30px;
+            font-size: 130px;
+            font-family: 'Jomhuria', cursive;
+            opacity: 100%;
+            transition-duration: 0.2s;
+        }
+        .tophead:hover{
+            color: rgb(31, 31, 31);
+            opacity: 100%;
+            transition-duration: 0.2s;
+        }
+        .container{
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+            margin-top: 104px;
+            width: 1260px;
+            justify-content: space-evenly;
+        }
+        .mclass{
+            height: 240px;
+            width: 330px;
+            margin: 20px;
+            box-shadow: 2px 2px 20px 8px black;
+            transition-duration: 0.2s;
+            background-color: rgb(255, 247, 238);
+            opacity: 65%;
+        }
+        .dclass{
+            height: 240px;
+            width: 330px;
+            margin: 20px;
+            box-shadow: 2px 2px 20px 8px black;
+            transition-duration: 0.2s;
+            background-color: rgb(255, 247, 238);
+            opacity: 65%;
+        }
+        .sclass{
+            height: 240px;
+            width: 330px;
+            margin: 20px;
+            box-shadow: 2px 2px 20px 8px black;
+            transition-duration: 0.2s;
+            background-color: rgb(255, 247, 238);
+            opacity: 65%;
+        }
+        .cclass{
+            height: 240px;
+            width: 330px;
+            margin: 20px;
+            box-shadow: 2px 2px 20px 8px black;
+            transition-duration: 0.2s;
+            background-color: rgb(255, 247, 238);
+            opacity: 65%;
+        }
+        .wclass{
+            height: 240px;
+            width: 330px;
+            margin: 20px;
+            box-shadow: 2px 2px 20px 8px black;
+            transition-duration: 0.2s;
+            background-color: rgb(255, 247, 238);
+            opacity: 65%;
+        }
+        .mclass:hover{
+            transition-duration: 0.2s;
+            box-shadow: 0px 0px 0px 0px;
+            cursor: pointer;
+            opacity: 100%;
+        }
+        .dclass:hover{
+            transition-duration: 0.2s;
+            box-shadow: 0px 0px 0px 0px;
+            cursor: pointer;
+            opacity: 100%;
+        }
+        .sclass:hover{
+            transition-duration: 0.2s;
+            box-shadow: 0px 0px 0px 0px;
+            cursor: pointer;
+            opacity: 100%;
+        }
+        .cclass:hover{
+            transition-duration: 0.2s;
+            box-shadow: 0px 0px 0px 0px;
+            cursor: pointer;
+            opacity: 100%;
+        }
+        .wclass:hover{
+            transition-duration: 0.2s;
+            box-shadow: 0px 0px 0px 0px;
+            cursor: pointer;
+            opacity: 100%;
+        }
+        #btnid{
+            position: fixed;
+            z-index: 2;
+            height: 100px;
+            width: 150px;
+            border-radius: 0px 55px;
+            border: none;
+            transition-duration: 0.2s;
+            background-color: white;
+            font-family: 'Jomhuria', cursive;
+            font-size: 50px;
+            color: rgb(31, 31, 31);
+        }
+        #btnid:hover{
+            box-shadow: 2px 2px 20px 8px black;
+            transition-duration: 0.2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="topbar">
+            <div class="tophead">
+                Choice Predictor
+            </div>
+        </div>
+        <div class="container">
+            <div class="container1">
+        <div class="wclass" id="boxid1" onmouseover = "wtimestart()" onmouseout="wtimestop()" >  <img src="watercolor painting/w3.jpg" width="330px" height="240px"  alt=""> </div>
+        <div class="cclass" id="boxid2" onmouseover = "ctimestart()" onmouseout="ctimestop()" >  <img src="comic art/c1.jpg" alt="" width="330px" height="240px" > </div>
+        <div class="sclass" id="boxid3" onmouseover = "stimestart()" onmouseout="stimestop()" >  <img src="sketch art/s3.jpg" alt="" width="330px" height="240px" > </div>
+        <div class="dclass" id="boxid4" onmouseover = "dtimestart()" onmouseout="dtimestop()" >  <img src="doodle art/d2.png" alt="" width="330px" height="240px" > </div>
+        <div class="mclass" id="boxid5" onmouseover = "mtimestart()" onmouseout="mtimestop()" >  <img src="mandala art/m3.jpg" alt="" width="330px" height="240px" > </div>
+        <div class="dclass" id="boxid6" onmouseover = "dtimestart()" onmouseout="dtimestop()" >  <img src="doodle art/d4.jpg" alt="" width="330px" height="240px" > </div>
+        <div class="wclass" id="boxid7" onmouseover = "wtimestart()" onmouseout="wtimestop()" >  <img src="watercolor painting/w4.jpg" alt="" width="330px" height="240px" > </div>
+        </div>
+        <div class="container1">
+        <div class="mclass" id="boxid8" onmouseover = "mtimestart()" onmouseout="mtimestop()" >  <img src="mandala art/m2.jpg" alt="" width="330px" height="240px" > </div>
+        <div class="dclass" id="boxid9" onmouseover = "dtimestart()" onmouseout="dtimestop()" >  <img src="doodle art/d1.jpg" alt="" width="330px" height="240px" > </div>
+        <div class="wclass" id="boxid10" onmouseover = "wtimestart()" onmouseout="wtimestop()" >  <img src="watercolor painting/w2.jpg" alt="" width="330px" height="240px" > </div>
+        <div class="cclass" id="boxid11" onmouseover = "ctimestart()" onmouseout="ctimestop()" >  <img src="comic art/c3.jpg" alt="" width="330px" height="240px" > </div>
+        <div class="wclass" id="boxid12" onmouseover = "wtimestart()" onmouseout="wtimestop()" >  <img src="watercolor painting/w1.jpg" alt="" width="330px" height="240px" > </div>
+        <div class="sclass" id="boxid13" onmouseover = "stimestart()" onmouseout="stimestop()" >  <img src="sketch art/s1.jpg" alt="" width="330px" height="240px" > </div>
+        <div class="cclass" id="boxid14" onmouseover = "ctimestart()" onmouseout="ctimestop()" >  <img src="comic art/c4.jpg" alt="" width="330px" height="240px" > </div>
+    </div>
+    <div class="container1">
+        <div class="sclass" id="boxid15" onmouseover = "stimestart()" onmouseout="stimestop()" >  <img src="sketch art/s4.jpg" alt="" width="330px" height="240px" > </div>
+        <div class="mclass" id="boxid16" onmouseover = "mtimestart()" onmouseout="mtimestop()" >  <img src="mandala art/m1.jpg" alt="" width="330px" height="240px" > </div>
+        <div class="cclass" id="boxid17" onmouseover = "ctimestart()" onmouseout="ctimestop()" >  <img src="comic art/c2.jpg" alt="" width="330px" height="240px" > </div>
+        <div class="sclass" id="boxid18" onmouseover = "stimestart()" onmouseout="stimestop()" >  <img src="sketch art/s2.jpg" alt="" width="330px" height="240px" > </div>
+        <div class="dclass" id="boxid19" onmouseover = "dtimestart()" onmouseout="dtimestop()" >  <img src="doodle art/d3.jpg" alt="" width="330px" height="240px" > </div>
+        <div class="mclass" id="boxid20" onmouseover = "mtimestart()" onmouseout="mtimestop()" >  <img src="mandala art/m4.jpg" alt="" width="330px" height="240px" > </div>
+        <div class="cclass" id="boxid21" onmouseover = "ctimestart()" onmouseout="ctimestop()" >  <img src="comic art/c5.jpg" alt="" width="330px" height="240px" > </div>
+    </div>
+        </div>
+        <div> <button id="btnid" onclick="showresult()">Show prediction</button> </div>
+    </div>
+    <script>
+
+        alert("This is a choice predictor web page. Here you can hover your mouse on images you like and based on the time spent on different art style, your time will be calculated and predictted. I have used some of my drawings too. Mine's comic art style btw!")
+        alert("After looking at all your desired images, click on 'Show Prediction' button and open console using right click-> inspect")
+        let name=prompt("Enter Your name:","Guest");
+
+        
+        let w=0;
+        let c=0;
+        let s=0;
+        let d=0;
+        let m=0;
+        let sclass = document.getElementsByClassName('sclass');
+        let mclass = document.getElementsByClassName('mclass');
+        let cclass = document.getElementsByClassName('cclass');
+        let dclass = document.getElementsByClassName('dclass');
+        let wclass = document.getElementsByClassName('mclass');
+        function stimestart(){
+            stimer = setInterval(function sinc(){s++},50);
+        }
+        function mtimestart(){
+            mtimer = setInterval(function minc(){m++},50);
+        }
+        function ctimestart(){
+            ctimer = setInterval(function cinc(){c++},50);
+        }
+        function dtimestart(){
+            dtimer = setInterval(function dinc(){d++},50);
+        }
+        function wtimestart(){
+            wtimer = setInterval(function winc(){w++},50);
+        }
+
+
+        function stimestop(){
+            clearInterval(stimer);
+        }
+        function wtimestop(){
+            clearInterval(wtimer);
+        }
+        function ctimestop(){
+            clearInterval(ctimer);
+        }
+        function dtimestop(){
+            clearInterval(dtimer);
+        }
+        function mtimestop(){
+            clearInterval(mtimer);
+        }
+        function showresult(){
+            console.log("Time spent hovering mandala style art: ",m);
+            console.log("Time spent hovering comic style art: ",c);
+            console.log("Time spent hovering watercolor style art: ",w);
+            console.log("Time spent hovering doodle style art: ",d);
+            console.log("Time spent hovering sketch style art: ",s);
+            let x = Math.max(m,c,w,d,s);
+            console.log("\n")
+            console.log("Hello ", name);
+            switch(x){
+                case m: 
+                {
+                    console.log("Looks like you are more interested in mandala style art")
+                    console.log("Go check out my insta page at -> rohanpandey749...I would be really happy")
+                }
+                break;
+                case c: 
+                {
+                    console.log("Looks like you are more interested in comic style art, that's my favourite too.")
+                    console.log("Go check out my insta page at -> rohanpandey749...I would be really happy")
+                }
+                break;
+                case w: 
+                {
+                    console.log("So you are more of a waterpainting guy...well...its really tough for me.")
+                    console.log("Go check out my insta page at -> rohanpandey749...I would be really happy")
+                }
+                break;
+                case d: 
+                {
+                    console.log("So you are interested in doodling....that's really creative!")
+                    console.log("Go check out my insta page at -> rohanpandey749...I would be really happy")
+                }
+                break;
+                case s: 
+                {
+                    console.log("So it looks like sketch art is your thing...well I love that too....")
+                    console.log("Go check out my insta page at -> rohanpandey749...I would be really happy")
+                }
+                break;
+            }
+        }
+    </script>
+</body>
+</html>

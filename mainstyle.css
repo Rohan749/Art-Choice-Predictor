@@ -1,0 +1,42 @@
+.box {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    image-resolution: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid blue;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+.heading{
+    border: 2px solid pink;
+    justify-content: space-evenly;
+    height: 120px;
+    display: flex;
+    align-content: space-around;
+    font-size: 50px;
+    position: fixed;
+    width: 1243px;
+    z-index: 1;
+}
+#ob1{
+    background-image: url(digital-art-men-city-futuristic-night-hd-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size:  30vw 16vw;
+    position:relative;
+    background-position: center;
+    transition-duration: 0.2s;
+    top: 2px;
+}
+#ob1:hover{
+    transition-duration: 0.2s;
+    height: 240px;
+    width: 240px;
+    background-size:  40vw 20vw;
+}
